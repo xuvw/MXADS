@@ -1,0 +1,6 @@
+framework module Pods_MXADS_Tests {
+  umbrella header "Pods-MXADS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

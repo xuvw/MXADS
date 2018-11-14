@@ -7,12 +7,25 @@
 //
 
 #import "MXAppDelegate.h"
+#import "ADSViewController.h"
+
+@interface MXAppDelegate ()
+
+@property (nonatomic, strong) MXADSWindow *adsWindow;
+
+@end
 
 @implementation MXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.adsWindow = [[MXADSWindow alloc] initWithADSProvider:^__kindof UIViewController *{
+        ADSViewController *vc = [[ADSViewController alloc] init];
+        return vc;
+    }];
+    
+    [self.adsWindow show];
     return YES;
 }
 

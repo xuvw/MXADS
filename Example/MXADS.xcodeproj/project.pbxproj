@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2967EFC52B0BEB584F6FFFA8 /* Pods_MXADS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AB128EFC593606EE631910 /* Pods_MXADS_Tests.framework */; };
+		508F5A30219C19FD00B7D530 /* ADSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508F5A2F219C19FD00B7D530 /* ADSViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,8 +39,10 @@
 
 /* Begin PBXFileReference section */
 		1992DD3F63BC98F7A89C93D2 /* Pods-MXADS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXADS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXADS_Example/Pods-MXADS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3A2A13F2E1EAD16FAC241F63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3A2A13F2E1EAD16FAC241F63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3C41416648746681351EA4DF /* Pods-MXADS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXADS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXADS_Example/Pods-MXADS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		508F5A2E219C19FD00B7D530 /* ADSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADSViewController.h; sourceTree = "<group>"; };
+		508F5A2F219C19FD00B7D530 /* ADSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADSViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MXADS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXADS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +64,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		720C833375C7AE222CB91658 /* Pods-MXADS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXADS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXADS_Tests/Pods-MXADS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7B1BF1A88455364CF89CBB30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B1BF1A88455364CF89CBB30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A68070467E64736AB855321 /* Pods_MXADS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXADS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AB128EFC593606EE631910 /* Pods_MXADS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXADS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B512087B38F5BB58CAAB253E /* MXADS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MXADS.podspec; path = ../MXADS.podspec; sourceTree = "<group>"; };
+		B512087B38F5BB58CAAB253E /* MXADS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXADS.podspec; path = ../MXADS.podspec; sourceTree = "<group>"; };
 		D398FCAA46D0FA5835C39F1B /* Pods-MXADS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXADS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXADS_Tests/Pods-MXADS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +138,8 @@
 				6003F59C195388D20070C39A /* MXAppDelegate.h */,
 				6003F59D195388D20070C39A /* MXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				508F5A2E219C19FD00B7D530 /* ADSViewController.h */,
+				508F5A2F219C19FD00B7D530 /* ADSViewController.m */,
 				6003F5A5195388D20070C39A /* MXViewController.h */,
 				6003F5A6195388D20070C39A /* MXViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -356,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MXAppDelegate.m in Sources */,
+				508F5A30219C19FD00B7D530 /* ADSViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* MXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
