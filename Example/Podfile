@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MXADS_Example' do
+  pod 'MXADS', :path => '../'
+
+  target 'MXADS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
